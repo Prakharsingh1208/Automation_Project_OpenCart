@@ -91,3 +91,48 @@
 03/01/2025 10:50:26 PM: INFO: [+] -> Entering the test data for TC_002
 03/01/2025 10:50:26 PM: INFO: [+] -> Clicking the search button
 03/01/2025 10:50:26 PM: INFO: [+] -> TC_002 Failed
+03/01/2025 11:19:59 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:19:59 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:19:59 PM: INFO: [+] -> Verifying the title
+03/01/2025 11:19:59 PM: INFO: [+] -> Title verification passed
+03/01/2025 11:20:03 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:20:03 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:20:03 PM: INFO: [+] -> Entering the test data for TC_002
+03/01/2025 11:20:04 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:20:04 PM: INFO: [+] -> TC_002 Passed
+03/01/2025 11:20:07 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:20:08 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:20:08 PM: INFO: [+] -> Entering the test data for TC_002
+03/01/2025 11:20:08 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:24:41 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:24:42 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:24:42 PM: INFO: [+] -> Verifying the title
+03/01/2025 11:24:42 PM: INFO: [+] -> Title verification passed
+03/01/2025 11:24:45 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:24:46 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:24:46 PM: INFO: [+] -> Entering the test data for TC_002
+03/01/2025 11:24:46 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:24:46 PM: INFO: [+] -> Validating TC_002
+03/01/2025 11:24:46 PM: INFO: [+] -> TC_002 Passed
+03/01/2025 11:24:50 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:24:50 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:24:50 PM: INFO: [+] -> Entering the test data for TC_002
+03/01/2025 11:24:51 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:24:51 PM: INFO: [+] -> Validating TC_003
+03/01/2025 11:24:51 PM: INFO: [+] -> TC_003 Failed
+03/01/2025 11:26:38 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:26:39 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:26:39 PM: INFO: [+] -> Verifying the title
+03/01/2025 11:26:39 PM: INFO: [+] -> Title verification passed
+03/01/2025 11:26:43 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:26:43 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:26:43 PM: INFO: [+] -> Entering the test data
+03/01/2025 11:26:44 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:26:44 PM: INFO: [+] -> Validating TC_002
+03/01/2025 11:26:44 PM: INFO: [+] -> TC_002 Passed
+03/01/2025 11:26:47 PM: INFO: [+] -> Opening the Home page
+03/01/2025 11:26:48 PM: INFO: [+] -> Maximizing the windows
+03/01/2025 11:26:48 PM: INFO: [+] -> Entering the test data
+03/01/2025 11:26:48 PM: INFO: [+] -> Clicking the search button
+03/01/2025 11:26:48 PM: INFO: [+] -> Validating TC_003
+03/01/2025 11:26:48 PM: INFO: [+] -> TC_003 Passed

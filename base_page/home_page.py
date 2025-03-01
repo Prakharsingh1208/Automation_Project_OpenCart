@@ -3,7 +3,7 @@ import time
 from  selenium import webdriver
 import pytest
 from selenium.webdriver.common.by import By
-from utilities.config_reader import Config
+from utilities.config_reader import ConfigHomePage
 from utilities.logs_genrator import LogsGenrator
 
 log = LogsGenrator.logs_gen()
@@ -49,13 +49,14 @@ class SearchBar:
 
     def Search_bar_test_data_002(self,location,query):
         self.driver.find_element(By.XPATH,location).send_keys(query)
-        self.log.info("[+] -> Entering the test data for TC_002")
+        self.log.info("[+] -> Entering the test data")
 
     def ClickingSearchButton(self,button):
         self.driver.find_element(By.XPATH,button).click()
         self.log.info("[+] -> Clicking the search button")
 
     def Search_bar_validation_002(self):
+        self.log.info("[+] -> Validating TC_002")
         if 'iPhone' in self.driver.page_source:
             self.log.info("[+] -> TC_002 Passed")
             self.driver.quit()
@@ -65,6 +66,16 @@ class SearchBar:
             self.driver.quit()
             assert False
 
+    def Search_bar_validation_003(self,InvalidQueryResponse):
+        self.log.info("[+] -> Validating TC_003")
+        if InvalidQueryResponse in self.driver.page_source:
+            self.log.info("[+] -> TC_003 Passed")
+            self.driver.quit()
+            assert True
+        else:
+            self.log.info("[+] -> TC_003 Failed")
+            self.driver.quit()
+            assert False
 
 
 

@@ -39,4 +39,5 @@ class Test_SearchFeathure:
         browser.open_home_page(url)
         browser.Search_bar_test_data_002(SearchBarLocation,InvalidQuery)
         browser.ClickingSearchButton(SearchBarButton)
+        browser.Search_bar_validation_003(InvalidQueryResponse)
 
