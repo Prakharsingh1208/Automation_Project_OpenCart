@@ -32,3 +32,12 @@ class ConfigHomePage:
         query = configs.get("Home_page","InvalidQuery")
         return query
 
+    @staticmethod
+    def GetHomePageTitle():
+        title = configs.get("Home_page","HomePageTitle")
+        return title
+
+    @staticmethod
+    def GetSqlPayload():
+        payload = configs.get("Home_page","SqlPayload")
+        return payload
