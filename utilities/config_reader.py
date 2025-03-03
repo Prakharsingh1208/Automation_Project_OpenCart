@@ -41,3 +41,30 @@ class ConfigHomePage:
     def GetSqlPayload():
         payload = configs.get("Home_page","SqlPayload")
         return payload
+
+    @staticmethod
+    def GetCurrencyLocattion():
+        location = configs.get("Home_page","CurrencyLocation_Xpath")
+        return location
+
+    @staticmethod
+    def GetDemoPriceLocation():
+        location = configs.get("Home_page","DemoProductPrice_Xpath")
+        return location
+
+    @staticmethod
+    def GetDollarlocation():
+        location = configs.get("Home_page","DollarCurrencyLocation_Xpath")
+        return location
+
+    @staticmethod
+    def GetEurolocation():
+        location = configs.get("Home_page","EuroCurrencyLocation_Xpath")
+        return location
+
+    @staticmethod
+    def GetPoundlocation():
+        location = configs.get("Home_page","PoundCurrencyLocation_xpath")
+        return location
+
+

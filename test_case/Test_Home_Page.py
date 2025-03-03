@@ -1,8 +1,11 @@
 import time
 import selenium
 import pytest
+import self
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support import select
+
 from utilities.logs_genrator import LogsGenrator
 from test_case.conftest import setup, browser
 from utilities.config_reader import ConfigHomePage
@@ -10,6 +13,7 @@ from base_page import home_page
 
 
 url = ConfigHomePage.gethomepageurl()
+
 SearchBarLocation = ConfigHomePage.GetSearchBarLocation()
 SearchBarButton = ConfigHomePage.GetSearchButton()
 ValidQuery = ConfigHomePage.GetValidQuery()
@@ -18,6 +22,11 @@ InvalidQueryResponse = ConfigHomePage.GetInvalidQueryResponse()
 HomePageTitle = ConfigHomePage.GetHomePageTitle()
 SqlPayload = ConfigHomePage.GetSqlPayload()
 
+CurrencyButtonLocation = ConfigHomePage.GetCurrencyLocattion()
+DollarLocation = ConfigHomePage.GetDollarlocation()
+PoundLocation = ConfigHomePage.GetPoundlocation()
+EuroLocation = ConfigHomePage.GetEurolocation()
+DemoPriceLocation = ConfigHomePage.GetDemoPriceLocation()
 
 class Test_HomePageTitleVerfication:
     log = LogsGenrator.logs_gen()
@@ -29,6 +38,7 @@ class Test_HomePageTitleVerfication:
         browser = home_page.HomepageTitleVerification(driver)
         browser.open_home_page(url)
         browser.home_page_title_verification(HomePageTitle,testCaseID)
+
 
 
 class Test_SearchFeathure:
@@ -83,4 +93,39 @@ class Test_SearchFeathure:
         browser.ClickingSearchButton(SearchBarButton)
         browser.Search_bar_validation_invalid_test_data(InvalidQueryResponse,testCaseID)
 
-#class Curency:
+class Test_Curency:
+    log = LogsGenrator.logs_gen()
+    def test_007(self,setup):
+        testCaseID = 'TC-007'
+        self.log.info(f"-----------------{testCaseID}-----------------")
+        driver = setup
+        browser = home_page.Currency(driver)
+        browser.open_home_page(url)
+        browser.ClickCurrencyButton(CurrencyButtonLocation)
+        browser.SelectingCurrency(EuroLocation,'€')
+        browser.CurrencyValidation(DemoPriceLocation,'€',testCaseID)
+
+    def test_008(self,setup):
+        testCaseID = 'TC-008'
+        self.log.info(f"-----------------{testCaseID}-----------------")
+        driver = setup
+        browser = home_page.Currency(driver)
+        browser.open_home_page(url)
+        browser.ClickCurrencyButton(CurrencyButtonLocation)
+        browser.SelectingCurrency(PoundLocation,'£')
+        browser.CurrencyValidation(DemoPriceLocation,'£',testCaseID)
+
+    def test_009(self,setup):
+        testCaseID = 'TC-009'
+        self.log.info(f"-----------------{testCaseID}-----------------")
+        driver = setup
+        browser = home_page.Currency(driver)
+        browser.open_home_page(url)
+        browser.ClickCurrencyButton(CurrencyButtonLocation)
+        browser.SelectingCurrency(DollarLocation,'$')
+        browser.CurrencyValidation(DemoPriceLocation,'$',testCaseID)
+
+
+
+
+
