@@ -111,7 +111,46 @@ class Currency:
             self.driver.quit()
             assert False
 
+class AddToCart:
+    log = LogsGenrator.logs_gen()
+    def __init__(self,driver):
+        self.driver = driver
 
+    def OpenHomePage(self,url):
+        self.log.info(f"[+] -> Opening the Home page {url}")
+        self.driver.get(url)
+        self.log.info(f"[+] -> Maximizing Window")
+        self.driver.maximize_window()
+
+    def ClickAddtoCart(self,location):
+        self.log.info(f"[+] -> Clicking Add to cart from product")
+        self.driver.find_element(By.XPATH,location).click()
+
+    def CartValidation(self,CartInfoLocation,EmptyCartMessage,testCaseID):
+        self.log.info(f"[+] -> Validating Add to cart Button")
+        cart_info = self.driver.find_element(By.XPATH,CartInfoLocation).text.strip()
+        self.log.info(f"{cart_info} and {EmptyCartMessage} and {testCaseID}")
+        try:
+            if EmptyCartMessage == cart_info and testCaseID == 'TC-010':
+                self.log.error(
+                    f"[+] -> {testCaseID} Failed: Cart is empty when it shouldn't be. Cart info: {cart_info}")
+                raise AssertionError(f"Test case {testCaseID} failed: Expected non-empty cart, but cart is empty.")
+
+            elif EmptyCartMessage == cart_info and testCaseID == 'TC-011':
+                self.log.info(f"[+] -> {testCaseID} Passed: Cart is empty as expected. Cart info: {cart_info}")
+                return True  # You can return a success result here
+
+            elif EmptyCartMessage != cart_info and testCaseID == 'TC-011':
+                self.log.error(
+                    f"[+] -> {testCaseID} Failed: Cart should be empty, but it's not. Cart info: {cart_info}")
+                raise AssertionError(f"Test case {testCaseID} failed: Expected empty cart({EmptyCartMessage}), but cart is not empty.")
+
+            elif EmptyCartMessage != cart_info and testCaseID =='TC-010':
+                self.log.info(f"[+] -> {testCaseID} Passed: Cart is correctly updated. Cart info: {cart_info}")
+                return True  # This assumes everything works as expected
+
+        finally:
+            self.driver.quit()
 
 
 

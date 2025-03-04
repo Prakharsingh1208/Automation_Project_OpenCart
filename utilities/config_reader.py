@@ -67,4 +67,22 @@ class ConfigHomePage:
         location = configs.get("Home_page","PoundCurrencyLocation_xpath")
         return location
 
+    @staticmethod
+    def GetProductAddToCartLocation_Xpath():
+        location = configs.get("Home_page","ProductAddToCartLocation_Xpath")
+        return location
 
+    @staticmethod
+    def GetCartLocation():
+        location = configs.get("Home_page","CartLocation_Xpath")
+        return location
+
+    @staticmethod
+    def GetCartInfoLocation():
+        location = configs.get("Home_page","CartInfoLocation_Xpath")
+        return location
+
+    @staticmethod
+    def GetEmptyCartMessage():
+        Message = configs.get("Home_page","EmptyCartMessage")
+        return Message
