@@ -129,7 +129,6 @@ class AddToCart:
     def CartValidation(self,CartInfoLocation,EmptyCartMessage,testCaseID):
         self.log.info(f"[+] -> Validating Add to cart Button")
         cart_info = self.driver.find_element(By.XPATH,CartInfoLocation).text.strip()
-        self.log.info(f"{cart_info} and {EmptyCartMessage} and {testCaseID}")
         try:
             if EmptyCartMessage == cart_info and testCaseID == 'TC-010':
                 self.log.error(
@@ -138,7 +137,7 @@ class AddToCart:
 
             elif EmptyCartMessage == cart_info and testCaseID == 'TC-011':
                 self.log.info(f"[+] -> {testCaseID} Passed: Cart is empty as expected. Cart info: {cart_info}")
-                return True  # You can return a success result here
+                assert True
 
             elif EmptyCartMessage != cart_info and testCaseID == 'TC-011':
                 self.log.error(
@@ -147,7 +146,7 @@ class AddToCart:
 
             elif EmptyCartMessage != cart_info and testCaseID =='TC-010':
                 self.log.info(f"[+] -> {testCaseID} Passed: Cart is correctly updated. Cart info: {cart_info}")
-                return True  # This assumes everything works as expected
+                assert True
 
         finally:
             self.driver.quit()

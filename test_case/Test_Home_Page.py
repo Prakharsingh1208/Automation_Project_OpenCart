@@ -148,7 +148,7 @@ class Test_Cart:
         drive = setup
         browser = home_page.AddToCart(drive)
         browser.OpenHomePage(url)
-        #time.sleep(10)
         browser.CartValidation(CartInfoLocation,EmptyCartMessage,testCaseID)
+
 
 
