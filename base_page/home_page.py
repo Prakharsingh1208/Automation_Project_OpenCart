@@ -20,13 +20,14 @@ class HomepageTitleVerification:
 
     def home_page_title_verification(self,title,testCaseID):
         self.log.info("[+] -> Verifying the title")
-        if self.driver.title == title:
-            self.log.info(f"[+] -> {testCaseID} Passed")
-            assert True
-            self.driver.quit()
-        else:
-            self.log.info(f"[+] -> {testCaseID} Failed")
-            assert False
+        try:
+            if self.driver.title == title:
+                self.log.info(f"[+] -> {testCaseID} Passed")
+                assert True
+            else:
+                self.log.info(f"[+] -> {testCaseID} Failed")
+                AssertionError(f"{testCaseID} Failed")
+        finally:
             self.driver.quit()
 
 
@@ -55,28 +56,30 @@ class SearchBar:
 
     def Search_bar_validation_valid_test_data(self,ValidQuery,testCaseID):
         self.log.info(f"[+] -> Validating {testCaseID}")
-        if 'iPhone' in self.driver.page_source:
-            self.log.info(f"[+] -> {testCaseID} Passed")
+        try:
+            if 'iPhone' in self.driver.page_source:
+                self.log.info(f"[+] -> {testCaseID} Passed")
+                assert True
+            else:
+                self.log.info(f"[+] -> {testCaseID} Failed")
+                self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{testCaseID}.png')
+                AssertionError(f"{testCaseID} Failed")
+        finally:
             self.driver.quit()
-            assert True
-        else:
-            self.log.info(f"[+] -> {testCaseID} Failed")
-            self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{testCaseID}.png')
-            self.driver.quit()
-            assert False
 
 
     def Search_bar_validation_invalid_test_data(self,InvalidQueryResponse,TestCaseID):
         self.log.info(f"[+] -> Validating {TestCaseID}")
-        if InvalidQueryResponse in self.driver.page_source:
-            self.log.info(f"[+] -> {TestCaseID} Passed")
+        try:
+            if InvalidQueryResponse in self.driver.page_source:
+                self.log.info(f"[+] -> {TestCaseID} Passed")
+                assert True
+            else:
+                self.log.info(f"[+] -> {TestCaseID} Failed")
+                self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{TestCaseID}.png')
+                AssertionError(f"{TestCaseID} Failed")
+        finally:
             self.driver.quit()
-            assert True
-        else:
-            self.log.info(f"[+] -> {TestCaseID} Failed")
-            self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{TestCaseID}.png')
-            self.driver.quit()
-            assert False
 
 class Currency:
     log = LogsGenrator.logs_gen()
@@ -101,16 +104,16 @@ class Currency:
     def CurrencyValidation(self,DemoProductPriceLocation,CurrencySymbole,TestCaseID):
         price = self.driver.find_element(By.XPATH,DemoProductPriceLocation).text
         self.log.info(f"[+] -> Validating for currency {CurrencySymbole}")
-        if CurrencySymbole in price:
-            self.log.info(f"[+] -> {TestCaseID} Passed")
+        try:
+            if CurrencySymbole in price:
+                self.log.info(f"[+] -> {TestCaseID} Passed")
+                assert True
+            else:
+                self.log.info(f"[+] -> {TestCaseID} Failed")
+                self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{TestCaseID}.png')
+                AssertionError(f"{TestCaseID} Failed")
+        finally:
             self.driver.quit()
-            assert True
-        else:
-            self.log.info(f"[+] -> {TestCaseID} Failed")
-            self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{TestCaseID}.png')
-            self.driver.quit()
-            assert False
-
 class AddToCart:
     log = LogsGenrator.logs_gen()
     def __init__(self,driver):
