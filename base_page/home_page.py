@@ -12,12 +12,6 @@ class HomepageTitleVerification:
     def __init__(self,driver):
         self.driver = driver
 
-    def open_home_page(self,url):
-        self.log.info(f"[+] -> Opening the Home page {url}")
-        self.driver.get(url)
-        self.log.info("[+] -> Maximizing the windows")
-        self.driver.maximize_window()
-
     def home_page_title_verification(self,title,testCaseID):
         self.log.info("[+] -> Verifying the title")
         try:
@@ -38,13 +32,6 @@ class SearchBar:
 
     def __init__(self,driver):
         self.driver = driver
-
-    def open_home_page(self,url):
-        self.log.info(f"[+] -> Opening the Home page {url}")
-        self.driver.get(url)
-        self.log.info("[+] -> Maximizing the windows")
-        self.driver.maximize_window()
-
 
     def Search_bar_test_data_entery(self,location,query):
         self.driver.find_element(By.XPATH,location).send_keys(query)
@@ -86,12 +73,6 @@ class Currency:
 
     def __init__(self,driver):
         self.driver = driver
-
-    def open_home_page(self,url):
-        self.log.info(f"[+] -> Opening the Home page {url}")
-        self.driver.get(url)
-        self.log.info("[+] -> Maximizing the windows")
-        self.driver.maximize_window()
 
     def ClickCurrencyButton(self,CurrencyButtonLocation):
         self.log.info(f"[+] -> Clicking Currency button")
@@ -150,7 +131,8 @@ class AddToCart:
             elif EmptyCartMessage != cart_info and testCaseID =='TC-010':
                 self.log.info(f"[+] -> {testCaseID} Passed: Cart is correctly updated. Cart info: {cart_info}")
                 assert True
-
+            else:
+                AssertionError("[!] -> Something unexpected happened")
         finally:
             self.driver.quit()
 
