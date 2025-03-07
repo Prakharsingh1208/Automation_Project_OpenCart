@@ -1,245 +1,269 @@
-03/06/2025 07:44:18 PM: INFO: Opening chrome browser
-03/06/2025 07:44:18 PM: INFO: Maximizing the window
-03/06/2025 07:44:18 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:18 PM: INFO: -----------------TC-001-----------------
-03/06/2025 07:44:18 PM: INFO: [+] -> Verifying the title
-03/06/2025 07:44:18 PM: INFO: [+] -> TC-001 Passed
-03/06/2025 07:44:22 PM: INFO: Opening chrome browser
-03/06/2025 07:44:22 PM: INFO: Maximizing the window
-03/06/2025 07:44:22 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:22 PM: INFO: -----------------TC-002-----------------
-03/06/2025 07:44:22 PM: INFO: [+] -> Entering the test data 'iPhone'
-03/06/2025 07:44:23 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:44:23 PM: INFO: [+] -> Validating TC-002
-03/06/2025 07:44:23 PM: INFO: [+] -> TC-002 Passed
-03/06/2025 07:44:26 PM: INFO: Opening chrome browser
-03/06/2025 07:44:26 PM: INFO: Maximizing the window
-03/06/2025 07:44:27 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:27 PM: INFO: -----------------TC-003-----------------
-03/06/2025 07:44:27 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
-03/06/2025 07:44:27 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:44:27 PM: INFO: [+] -> Validating TC-003
-03/06/2025 07:44:27 PM: INFO: [+] -> TC-003 Passed
-03/06/2025 07:44:31 PM: INFO: Opening chrome browser
-03/06/2025 07:44:31 PM: INFO: Maximizing the window
-03/06/2025 07:44:31 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:31 PM: INFO: -----------------TC-004-----------------
-03/06/2025 07:44:31 PM: INFO: [+] -> Entering the test data ''
-03/06/2025 07:44:31 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:44:31 PM: INFO: [+] -> Validating TC-004
-03/06/2025 07:44:31 PM: INFO: [+] -> TC-004 Passed
-03/06/2025 07:44:35 PM: INFO: Opening chrome browser
-03/06/2025 07:44:35 PM: INFO: Maximizing the window
-03/06/2025 07:44:35 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:35 PM: INFO: -----------------TC-005-----------------
-03/06/2025 07:44:35 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
-03/06/2025 07:44:36 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:44:36 PM: INFO: [+] -> Validating TC-005
-03/06/2025 07:44:36 PM: INFO: [+] -> TC-005 Passed
-03/06/2025 07:44:39 PM: INFO: Opening chrome browser
-03/06/2025 07:44:39 PM: INFO: Maximizing the window
-03/06/2025 07:44:40 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:40 PM: INFO: -----------------TC-006-----------------
-03/06/2025 07:44:40 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
-03/06/2025 07:44:40 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:44:40 PM: INFO: [+] -> Validating TC-006
-03/06/2025 07:44:40 PM: INFO: [+] -> TC-006 Passed
-03/06/2025 07:44:44 PM: INFO: Opening chrome browser
-03/06/2025 07:44:44 PM: INFO: Maximizing the window
-03/06/2025 07:44:44 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:44 PM: INFO: -----------------TC-007-----------------
-03/06/2025 07:44:44 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:44:44 PM: INFO: [+] -> Selecting Currency '€'
-03/06/2025 07:44:45 PM: INFO: [+] -> Validating for currency €
-03/06/2025 07:44:45 PM: INFO: [+] -> TC-007 Passed
-03/06/2025 07:44:48 PM: INFO: Opening chrome browser
-03/06/2025 07:44:48 PM: INFO: Maximizing the window
-03/06/2025 07:44:49 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:44:49 PM: INFO: -----------------TC-008-----------------
-03/06/2025 07:44:49 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:44:49 PM: INFO: [+] -> Selecting Currency '£'
-03/06/2025 07:44:49 PM: INFO: [+] -> Validating for currency £
-03/06/2025 07:44:49 PM: INFO: [+] -> TC-008 Passed
-03/06/2025 07:45:21 PM: INFO: Opening chrome browser
-03/06/2025 07:45:21 PM: INFO: Maximizing the window
-03/06/2025 07:45:22 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:45:22 PM: INFO: -----------------TC-009-----------------
-03/06/2025 07:45:22 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:45:22 PM: INFO: [+] -> Selecting Currency '$'
-03/06/2025 07:45:22 PM: INFO: [+] -> Validating for currency $
-03/06/2025 07:45:22 PM: INFO: [+] -> TC-009 Passed
-03/06/2025 07:45:26 PM: INFO: Opening chrome browser
-03/06/2025 07:45:26 PM: INFO: Maximizing the window
-03/06/2025 07:45:26 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:45:26 PM: INFO: -----------------TC-010-----------------
-03/06/2025 07:45:26 PM: INFO: [+] -> Clicking Add to cart from product
-03/06/2025 07:45:26 PM: INFO: [+] -> Validating Add to cart Button
-03/06/2025 07:45:26 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
-03/06/2025 07:45:30 PM: INFO: Opening chrome browser
-03/06/2025 07:45:30 PM: INFO: Maximizing the window
-03/06/2025 07:45:32 PM: INFO: Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:45:32 PM: INFO: -----------------TC-011-----------------
-03/06/2025 07:45:32 PM: INFO: [+] -> Validating Add to cart Button
-03/06/2025 07:45:32 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
-03/06/2025 07:52:49 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:52:49 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:52:49 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:52:49 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:52:49 PM: INFO: [+] -> Verifying the title
-03/06/2025 07:52:49 PM: INFO: [+] -> TC-101 Passed
-03/06/2025 07:52:53 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:52:53 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:52:53 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:52:54 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:52:54 PM: INFO: [+] -> Entering the test data 'iPhone'
-03/06/2025 07:52:54 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:52:54 PM: INFO: [+] -> Validating TC-102
-03/06/2025 07:52:54 PM: INFO: [+] -> TC-102 Passed
-03/06/2025 07:52:58 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:52:58 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:52:58 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:52:58 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:52:58 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
-03/06/2025 07:52:59 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:52:59 PM: INFO: [+] -> Validating TC-103
-03/06/2025 07:52:59 PM: INFO: [+] -> TC-103 Passed
-03/06/2025 07:53:02 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:02 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:02 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:03 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:03 PM: INFO: [+] -> Entering the test data ''
-03/06/2025 07:53:03 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:53:03 PM: INFO: [+] -> Validating TC-104
-03/06/2025 07:53:03 PM: INFO: [+] -> TC-104 Passed
-03/06/2025 07:53:06 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:06 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:07 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:07 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:07 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
-03/06/2025 07:53:07 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:53:07 PM: INFO: [+] -> Validating TC-105
-03/06/2025 07:53:07 PM: INFO: [+] -> TC-105 Passed
-03/06/2025 07:53:11 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:11 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:11 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:11 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:11 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
-03/06/2025 07:53:12 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:53:12 PM: INFO: [+] -> Validating TC-106
-03/06/2025 07:53:12 PM: INFO: [+] -> TC-106 Passed
-03/06/2025 07:53:15 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:15 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:15 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:16 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:16 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:53:16 PM: INFO: [+] -> Selecting Currency '€'
-03/06/2025 07:53:16 PM: INFO: [+] -> Validating for currency €
-03/06/2025 07:53:16 PM: INFO: [+] -> TC-107 Passed
-03/06/2025 07:53:20 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:20 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:20 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:20 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:20 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:53:20 PM: INFO: [+] -> Selecting Currency '£'
-03/06/2025 07:53:20 PM: INFO: [+] -> Validating for currency £
-03/06/2025 07:53:20 PM: INFO: [+] -> TC-108 Passed
-03/06/2025 07:53:24 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:53:24 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:53:57 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:53:57 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:53:57 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:53:57 PM: INFO: [+] -> Selecting Currency '$'
-03/06/2025 07:53:58 PM: INFO: [+] -> Validating for currency $
-03/06/2025 07:53:58 PM: INFO: [+] -> TC-109 Passed
-03/06/2025 07:54:02 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:54:02 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:54:02 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:54:02 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:54:02 PM: INFO: [+] -> Clicking Add to cart from product
-03/06/2025 07:54:02 PM: INFO: [+] -> Validating Add to cart Button
-03/06/2025 07:54:06 PM: INFO: -----------------TC-100-----------------
-03/06/2025 07:54:06 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:54:06 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:54:06 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:54:06 PM: INFO: [+] -> Validating Add to cart Button
-03/06/2025 07:57:27 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:27 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:27 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:27 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:27 PM: INFO: [+] -> Verifying the title
-03/06/2025 07:57:27 PM: INFO: [+] -> TC-101 Passed
-03/06/2025 07:57:31 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:31 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:31 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:31 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:31 PM: INFO: [+] -> Entering the test data 'iPhone'
-03/06/2025 07:57:31 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:57:31 PM: INFO: [+] -> Validating TC-102
-03/06/2025 07:57:31 PM: INFO: [+] -> TC-102 Passed
-03/06/2025 07:57:35 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:35 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:35 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:35 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:36 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
-03/06/2025 07:57:36 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:57:36 PM: INFO: [+] -> Validating TC-103
-03/06/2025 07:57:36 PM: INFO: [+] -> TC-103 Passed
-03/06/2025 07:57:39 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:39 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:39 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:40 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:40 PM: INFO: [+] -> Entering the test data ''
-03/06/2025 07:57:40 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:57:40 PM: INFO: [+] -> Validating TC-104
-03/06/2025 07:57:40 PM: INFO: [+] -> TC-104 Passed
-03/06/2025 07:57:44 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:44 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:44 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:44 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:44 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
-03/06/2025 07:57:45 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:57:45 PM: INFO: [+] -> Validating TC-105
-03/06/2025 07:57:45 PM: INFO: [+] -> TC-105 Passed
-03/06/2025 07:57:48 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:48 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:48 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:50 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:50 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
-03/06/2025 07:57:50 PM: INFO: [+] -> Clicking the search button
-03/06/2025 07:57:50 PM: INFO: [+] -> Validating TC-106
-03/06/2025 07:57:50 PM: INFO: [+] -> TC-106 Passed
-03/06/2025 07:57:54 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:54 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:54 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:54 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:54 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:57:54 PM: INFO: [+] -> Selecting Currency '€'
-03/06/2025 07:57:54 PM: INFO: [+] -> Validating for currency €
-03/06/2025 07:57:54 PM: INFO: [+] -> TC-107 Passed
-03/06/2025 07:57:58 PM: INFO: ------------------------------------------------------
-03/06/2025 07:57:58 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:57:58 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:57:58 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:57:58 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:57:58 PM: INFO: [+] -> Selecting Currency '£'
-03/06/2025 07:57:59 PM: INFO: [+] -> Validating for currency £
-03/06/2025 07:57:59 PM: INFO: [+] -> TC-108 Passed
-03/06/2025 07:58:02 PM: INFO: ------------------------------------------------------
-03/06/2025 07:58:02 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:58:02 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:58:03 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:58:03 PM: INFO: [+] -> Clicking Currency button
-03/06/2025 07:58:03 PM: INFO: [+] -> Selecting Currency '$'
-03/06/2025 07:58:03 PM: INFO: [+] -> Validating for currency $
-03/06/2025 07:58:03 PM: INFO: [+] -> TC-109 Passed
-03/06/2025 07:58:07 PM: INFO: ------------------------------------------------------
-03/06/2025 07:58:07 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:58:07 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:58:07 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:58:07 PM: INFO: [+] -> Clicking Add to cart from product
-03/06/2025 07:58:07 PM: INFO: [+] -> Validating Add to cart Button
-03/06/2025 07:58:11 PM: INFO: ------------------------------------------------------
-03/06/2025 07:58:11 PM: INFO: [+] -> Opening chrome browser
-03/06/2025 07:58:11 PM: INFO: [+] -> Maximizing the window
-03/06/2025 07:58:11 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-03/06/2025 07:58:11 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:31:20 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:20 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:20 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:20 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:20 PM: INFO: [+] -> Verifying the title
+03/06/2025 09:31:20 PM: INFO: [+] -> TC-001 Passed
+03/06/2025 09:31:24 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:24 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:24 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:24 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:25 PM: INFO: [+] -> Entering the test data 'iPhone'
+03/06/2025 09:31:25 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:31:25 PM: INFO: [+] -> Validating TC-002
+03/06/2025 09:31:25 PM: INFO: [+] -> TC-002 Passed
+03/06/2025 09:31:28 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:28 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:28 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:28 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:29 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
+03/06/2025 09:31:29 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:31:29 PM: INFO: [+] -> Validating TC-003
+03/06/2025 09:31:29 PM: INFO: [+] -> TC-003 Passed
+03/06/2025 09:31:33 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:33 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:33 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:33 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:33 PM: INFO: [+] -> Entering the test data ''
+03/06/2025 09:31:34 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:31:34 PM: INFO: [+] -> Validating TC-004
+03/06/2025 09:31:34 PM: INFO: [+] -> TC-004 Passed
+03/06/2025 09:31:37 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:37 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:37 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:37 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:38 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
+03/06/2025 09:31:38 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:31:38 PM: INFO: [+] -> Validating TC-005
+03/06/2025 09:31:38 PM: INFO: [+] -> TC-005 Passed
+03/06/2025 09:31:42 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:42 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:42 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:42 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:42 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
+03/06/2025 09:31:42 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:31:42 PM: INFO: [+] -> Validating TC-006
+03/06/2025 09:31:42 PM: INFO: [+] -> TC-006 Passed
+03/06/2025 09:31:46 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:46 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:46 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:46 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:46 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:31:47 PM: INFO: [+] -> Selecting Currency '€'
+03/06/2025 09:31:47 PM: INFO: [+] -> Validating for currency €
+03/06/2025 09:31:47 PM: INFO: [+] -> TC-007 Passed
+03/06/2025 09:31:50 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:50 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:50 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:50 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:51 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:31:51 PM: INFO: [+] -> Selecting Currency '£'
+03/06/2025 09:31:51 PM: INFO: [+] -> Validating for currency £
+03/06/2025 09:31:51 PM: INFO: [+] -> TC-008 Passed
+03/06/2025 09:31:55 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:55 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:55 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:55 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:31:55 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:31:56 PM: INFO: [+] -> Selecting Currency '$'
+03/06/2025 09:31:56 PM: INFO: [+] -> Validating for currency $
+03/06/2025 09:31:56 PM: INFO: [+] -> TC-009 Passed
+03/06/2025 09:31:59 PM: INFO: ------------------------------------------------------
+03/06/2025 09:31:59 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:31:59 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:31:59 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:32:00 PM: INFO: [+] -> Clicking Add to cart from product
+03/06/2025 09:32:00 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:32:00 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/06/2025 09:32:04 PM: INFO: ------------------------------------------------------
+03/06/2025 09:32:04 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:32:04 PM: INFO: [+] -> Maximizing the window
+03/06/2025 09:32:04 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:32:04 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:32:04 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/06/2025 09:42:57 PM: INFO: ------------------------------------------------------
+03/06/2025 09:42:57 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:42:57 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:42:57 PM: INFO: [+] -> Verifying the title
+03/06/2025 09:42:57 PM: INFO: [+] -> TC-001 Passed
+03/06/2025 09:46:17 PM: INFO: ------------------------------------------------------
+03/06/2025 09:46:17 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:46:17 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:46:17 PM: INFO: [+] -> Verifying the title
+03/06/2025 09:46:17 PM: INFO: [+] -> TC-001 Passed
+03/06/2025 09:46:19 PM: INFO: ------------------------------------------------------
+03/06/2025 09:46:19 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:46:19 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:46:19 PM: INFO: [+] -> Entering the test data 'iPhone'
+03/06/2025 09:46:19 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:46:19 PM: INFO: [+] -> Validating TC-002
+03/06/2025 09:46:20 PM: INFO: [+] -> TC-002 Passed
+03/06/2025 09:46:21 PM: INFO: ------------------------------------------------------
+03/06/2025 09:46:21 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:46:21 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:46:22 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
+03/06/2025 09:46:22 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:46:22 PM: INFO: [+] -> Validating TC-003
+03/06/2025 09:46:22 PM: INFO: [+] -> TC-003 Passed
+03/06/2025 09:46:24 PM: INFO: ------------------------------------------------------
+03/06/2025 09:46:24 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:46:24 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:46:24 PM: INFO: [+] -> Entering the test data ''
+03/06/2025 09:46:24 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:46:24 PM: INFO: [+] -> Validating TC-004
+03/06/2025 09:46:24 PM: INFO: [+] -> TC-004 Passed
+03/06/2025 09:46:26 PM: INFO: ------------------------------------------------------
+03/06/2025 09:46:26 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:07 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:07 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:07 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:07 PM: INFO: [+] -> Verifying the title
+03/06/2025 09:47:07 PM: INFO: [+] -> TC-001 Passed
+03/06/2025 09:47:09 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:09 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:09 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:09 PM: INFO: [+] -> Entering the test data 'iPhone'
+03/06/2025 09:47:09 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:47:09 PM: INFO: [+] -> Validating TC-002
+03/06/2025 09:47:09 PM: INFO: [+] -> TC-002 Passed
+03/06/2025 09:47:11 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:11 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:11 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:11 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
+03/06/2025 09:47:12 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:47:12 PM: INFO: [+] -> Validating TC-003
+03/06/2025 09:47:12 PM: INFO: [+] -> TC-003 Passed
+03/06/2025 09:47:13 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:13 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:13 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:14 PM: INFO: [+] -> Entering the test data ''
+03/06/2025 09:47:14 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:47:14 PM: INFO: [+] -> Validating TC-004
+03/06/2025 09:47:14 PM: INFO: [+] -> TC-004 Passed
+03/06/2025 09:47:16 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:16 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:16 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:16 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
+03/06/2025 09:47:16 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:47:16 PM: INFO: [+] -> Validating TC-005
+03/06/2025 09:47:16 PM: INFO: [+] -> TC-005 Passed
+03/06/2025 09:47:18 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:18 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:18 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:19 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
+03/06/2025 09:47:19 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:47:19 PM: INFO: [+] -> Validating TC-006
+03/06/2025 09:47:19 PM: INFO: [+] -> TC-006 Passed
+03/06/2025 09:47:21 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:21 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:21 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:21 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:47:21 PM: INFO: [+] -> Selecting Currency '€'
+03/06/2025 09:47:22 PM: INFO: [+] -> Validating for currency €
+03/06/2025 09:47:22 PM: INFO: [+] -> TC-007 Passed
+03/06/2025 09:47:36 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:36 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:36 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:36 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:47:36 PM: INFO: [+] -> Selecting Currency '£'
+03/06/2025 09:47:36 PM: INFO: [+] -> Validating for currency £
+03/06/2025 09:47:36 PM: INFO: [+] -> TC-008 Passed
+03/06/2025 09:47:38 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:38 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:38 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:38 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:47:38 PM: INFO: [+] -> Selecting Currency '$'
+03/06/2025 09:47:38 PM: INFO: [+] -> Validating for currency $
+03/06/2025 09:47:38 PM: INFO: [+] -> TC-009 Passed
+03/06/2025 09:47:40 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:40 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:40 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:40 PM: INFO: [+] -> Clicking Add to cart from product
+03/06/2025 09:47:41 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:47:41 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/06/2025 09:47:42 PM: INFO: ------------------------------------------------------
+03/06/2025 09:47:42 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:47:42 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:47:43 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:47:43 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/06/2025 09:47:51 PM: ERROR: Error terminating service process.
+Traceback (most recent call last):
+  File "C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\.venv\Lib\site-packages\selenium\webdriver\common\service.py", line 181, in _terminate_process
+    self.process.terminate()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.752.0_x64__qbz5n2kfra8p0\Lib\subprocess.py", line 1688, in terminate
+    _winapi.TerminateProcess(self._handle, 1)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+OSError: [WinError 6] The handle is invalid
+03/06/2025 09:48:54 PM: INFO: ------------------------------------------------------
+03/06/2025 09:48:54 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:48:54 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:48:54 PM: INFO: [+] -> Verifying the title
+03/06/2025 09:48:54 PM: INFO: [+] -> TC-001 Passed
+03/06/2025 09:48:58 PM: INFO: ------------------------------------------------------
+03/06/2025 09:48:58 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:48:58 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:48:58 PM: INFO: [+] -> Entering the test data 'iPhone'
+03/06/2025 09:48:58 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:48:58 PM: INFO: [+] -> Validating TC-002
+03/06/2025 09:48:59 PM: INFO: [+] -> TC-002 Passed
+03/06/2025 09:49:02 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:02 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:02 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:03 PM: INFO: [+] -> Entering the test data 'asdkj*&^'
+03/06/2025 09:49:03 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:49:03 PM: INFO: [+] -> Validating TC-003
+03/06/2025 09:49:03 PM: INFO: [+] -> TC-003 Passed
+03/06/2025 09:49:07 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:07 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:07 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:07 PM: INFO: [+] -> Entering the test data ''
+03/06/2025 09:49:07 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:49:07 PM: INFO: [+] -> Validating TC-004
+03/06/2025 09:49:07 PM: INFO: [+] -> TC-004 Passed
+03/06/2025 09:49:11 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:11 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:11 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:11 PM: INFO: [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
+03/06/2025 09:49:12 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:49:12 PM: INFO: [+] -> Validating TC-005
+03/06/2025 09:49:12 PM: INFO: [+] -> TC-005 Passed
+03/06/2025 09:49:15 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:15 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:15 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:16 PM: INFO: [+] -> Entering the test data '' OR 1=1 --'
+03/06/2025 09:49:16 PM: INFO: [+] -> Clicking the search button
+03/06/2025 09:49:16 PM: INFO: [+] -> Validating TC-006
+03/06/2025 09:49:16 PM: INFO: [+] -> TC-006 Passed
+03/06/2025 09:49:20 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:20 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:20 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:20 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:49:20 PM: INFO: [+] -> Selecting Currency '€'
+03/06/2025 09:49:20 PM: INFO: [+] -> Validating for currency €
+03/06/2025 09:49:20 PM: INFO: [+] -> TC-007 Passed
+03/06/2025 09:49:24 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:24 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:24 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:24 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:49:24 PM: INFO: [+] -> Selecting Currency '£'
+03/06/2025 09:49:25 PM: INFO: [+] -> Validating for currency £
+03/06/2025 09:49:25 PM: INFO: [+] -> TC-008 Passed
+03/06/2025 09:49:28 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:28 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:28 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:29 PM: INFO: [+] -> Clicking Currency button
+03/06/2025 09:49:29 PM: INFO: [+] -> Selecting Currency '$'
+03/06/2025 09:49:29 PM: INFO: [+] -> Validating for currency $
+03/06/2025 09:49:29 PM: INFO: [+] -> TC-009 Passed
+03/06/2025 09:49:33 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:33 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:33 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:33 PM: INFO: [+] -> Clicking Add to cart from product
+03/06/2025 09:49:33 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:49:33 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/06/2025 09:49:37 PM: INFO: ------------------------------------------------------
+03/06/2025 09:49:37 PM: INFO: [+] -> Opening chrome browser
+03/06/2025 09:49:37 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+03/06/2025 09:49:37 PM: INFO: [+] -> Validating Add to cart Button
+03/06/2025 09:49:37 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00

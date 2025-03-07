@@ -15,7 +15,7 @@ def pytest_addoption(parser):
 def browser(request):
     return request.config.getoption("--browser")
 
-@pytest.fixture()
+@pytest.fixture(scope="function")
 def setup(browser):
     global driver
     try:
@@ -30,8 +30,6 @@ def setup(browser):
     finally:
         log.info(f"------------------------------------------------------")
         log.info(f"[+] -> Opening {browser} browser")
-        driver.maximize_window()
-        log.info(f"[+] -> Maximizing the window")
-        driver.get(url)
-        log.info(f"[+] -> Opening the url: {url}")
+    yield driver
+    driver.quit()
     return driver
