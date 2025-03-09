@@ -1,0 +1,7 @@
+[32mINFO    [0m root:conftest.py:31 ------------------------------------------------------
+[32mINFO    [0m root:conftest.py:32 [+] -> Opening chrome browser
+[32mINFO    [0m root:Test_Home_Page.py:37 [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+[32mINFO    [0m root:home_page.py:38 [+] -> Entering the test data '!@#$%^&*()_+_)(*&^%$#{}|}":?><'
+[32mINFO    [0m root:home_page.py:42 [+] -> Clicking the search button
+[32mINFO    [0m root:home_page.py:55 [+] -> Validating TC-005
+[32mINFO    [0m root:home_page.py:57 [+] -> TC-005 Passed

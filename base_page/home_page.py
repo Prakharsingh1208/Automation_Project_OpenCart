@@ -1,4 +1,5 @@
 import pytest
+import allure
 from utilities.config_reader import ConfigHomePage
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import select
@@ -21,6 +22,7 @@ class HomepageTitleVerification:
             self.log.info(f"[+] -> {testCaseID} Passed")
             assert True
         else:
+            allure.attach(self.driver.save_screenshot(fr'C:\Users\pranj\OneDrive\Desktop\Automation_Project_OpenCart\screenshots\{testCaseID}.png'),name="Title verification failed",attachment_type="PNG")
             self.log.info(f"[+] -> {testCaseID} Failed")
             AssertionError(f"{testCaseID} Failed")
 

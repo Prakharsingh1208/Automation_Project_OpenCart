@@ -1,10 +1,12 @@
 import logging
 import time
 import selenium
+import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import select
+
 
 from utilities.logs_genrator import LogsGenrator
 from test_case.conftest import setup, browser
@@ -36,6 +38,8 @@ def OpeningHomePage(setup):
     setup.get(url)
     return setup
 
+@allure.severity(allure.severity_level.MINOR)
+@allure.title("Testing the Homepage Title")
 class Test_HomePageTitleVerfication:
     log = LogsGenrator.logs_gen()
     def test_001(self,OpeningHomePage):
@@ -44,8 +48,12 @@ class Test_HomePageTitleVerfication:
         browser = home_page.HomepageTitleVerification(driver)
         browser.home_page_title_verification(HomePageTitle,testCaseID)
 
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.description("This will test the search function of the homepage")
 class Test_SearchFeathure:
     log = LogsGenrator.logs_gen()
+
+    @allure.title("TC-002: Search with valid query")
     def test_002(self,OpeningHomePage):
         testCaseID = 'TC-002'
         driver = OpeningHomePage
@@ -54,6 +62,7 @@ class Test_SearchFeathure:
         browser.ClickingSearchButton(SearchBarButton)
         browser.Search_bar_validation_valid_test_data(ValidQuery,testCaseID)
 
+    @allure.title("TC-003: Search with Invalid query")
     def test_003(self,OpeningHomePage):
         testCaseID = 'TC-003'
         driver = OpeningHomePage
@@ -62,6 +71,7 @@ class Test_SearchFeathure:
         browser.ClickingSearchButton(SearchBarButton)
         browser.Search_bar_validation_invalid_test_data(InvalidQueryResponse,testCaseID)
 
+    @allure.title("TC-004: Search with no query")
     def test_004(self,OpeningHomePage):
         testCaseID = 'TC-004'
         driver = OpeningHomePage
@@ -70,6 +80,7 @@ class Test_SearchFeathure:
         browser.ClickingSearchButton(SearchBarButton)
         browser.Search_bar_validation_invalid_test_data(InvalidQueryResponse,testCaseID)
 
+    @allure.title("TC-005: Search with special characters")
     def test_005(self,OpeningHomePage):
         testCaseID = 'TC-005'
         driver = OpeningHomePage
@@ -78,6 +89,7 @@ class Test_SearchFeathure:
         browser.ClickingSearchButton(SearchBarButton)
         browser.Search_bar_validation_invalid_test_data(InvalidQueryResponse,testCaseID)
 
+    @allure.title("TC-002: Search with Sql Injection query")
     def test_006(self,OpeningHomePage):
         testCaseID = 'TC-006'
         driver = OpeningHomePage

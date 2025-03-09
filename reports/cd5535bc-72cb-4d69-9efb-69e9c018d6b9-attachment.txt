@@ -1,0 +1,7 @@
+[32mINFO    [0m root:conftest.py:31 ------------------------------------------------------
+[32mINFO    [0m root:conftest.py:32 [+] -> Opening chrome browser
+[32mINFO    [0m root:Test_Home_Page.py:37 [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
+[32mINFO    [0m root:home_page.py:71 [+] -> Clicking Currency button
+[32mINFO    [0m root:home_page.py:75 [+] -> Selecting Currency '£'
+[32mINFO    [0m root:home_page.py:80 [+] -> Validating for currency £
+[32mINFO    [0m root:home_page.py:82 [+] -> TC-008 Passed
