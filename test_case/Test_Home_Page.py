@@ -11,7 +11,7 @@ from selenium.webdriver.support import select
 from utilities.logs_genrator import LogsGenrator
 from test_case.conftest import setup, browser
 from utilities.config_reader import ConfigHomePage
-from base_page import home_page
+from base import home_page
 
 
 url = ConfigHomePage.gethomepageurl()
