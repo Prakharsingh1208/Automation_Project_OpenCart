@@ -67,14 +67,12 @@ class Currency:
     def __init__(self,driver):
         self.driver = driver
 
-    def ClickCurrencyButton(self,CurrencyButtonLocation):
-        self.log.info(f"[+] -> Clicking Currency button")
-        self.driver.find_element(By.XPATH,CurrencyButtonLocation).click()
-
+    @allure.step("Selecting the Currency from the options")
     def SelectingCurrency(self,location,value):
         self.log.info(f"[+] -> Selecting Currency '{value}'")
         self.driver.find_element(By.XPATH,location).click()
 
+    @allure.step("Verifying if the currency has changed accordingly")
     def CurrencyValidation(self,DemoProductPriceLocation,CurrencySymbole,TestCaseID):
         price = self.driver.find_element(By.XPATH,DemoProductPriceLocation).text
         self.log.info(f"[+] -> Validating for currency {CurrencySymbole}")
@@ -91,16 +89,12 @@ class AddToCart:
     def __init__(self,driver):
         self.driver = driver
 
-    def OpenHomePage(self,url):
-        self.log.info(f"[+] -> Opening the Home page {url}")
-        self.driver.get(url)
-        self.log.info(f"[+] -> Maximizing Window")
-        self.driver.maximize_window()
-
+    @allure.step("Clicking on 'Add to cart' button on the product catalog from homepage")
     def ClickAddtoCart(self,location):
         self.log.info(f"[+] -> Clicking Add to cart from product")
         self.driver.find_element(By.XPATH,location).click()
 
+    @allure.step("Verifying if the cart feature is working fine")
     def CartValidation(self,CartInfoLocation,EmptyCartMessage,testCaseID):
         self.log.info(f"[+] -> Validating Add to cart Button")
         cart_info = self.driver.find_element(By.XPATH,CartInfoLocation).text.strip()

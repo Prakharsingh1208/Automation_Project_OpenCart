@@ -1,6 +1,0 @@
-[32mINFO    [0m root:conftest.py:31 ------------------------------------------------------
-[32mINFO    [0m root:conftest.py:32 [+] -> Opening chrome browser
-[32mINFO    [0m root:Test_Home_Page.py:37 [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
-[32mINFO    [0m root:home_page.py:101 [+] -> Clicking Add to cart from product
-[32mINFO    [0m root:home_page.py:105 [+] -> Validating Add to cart Button
-[32mINFO    [0m root:home_page.py:120 [+] -> TC-010 Passed: Cart is correctly updated. Cart info:

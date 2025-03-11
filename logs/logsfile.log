@@ -483,3 +483,339 @@ OSError: [WinError 6] The handle is invalid
 03/10/2025 09:13:38 PM: INFO: [+] -> Opening the url: https://awesomeqa.com/ui/index.php?route=common/home
 03/10/2025 09:13:38 PM: INFO: [+] -> Validating Add to cart Button
 03/10/2025 09:13:38 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 02:34:30 PM: INFO: [+] -> Clicking Currency button
+03/11/2025 02:34:30 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:34:30 PM: INFO: [+] -> Validating for currency $
+03/11/2025 02:34:30 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 02:35:24 PM: INFO: [+] -> Clicking Currency button
+03/11/2025 02:35:25 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:48:16 PM: INFO: Clicking the currency button
+03/11/2025 02:48:21 PM: INFO: Clicking the currency button
+03/11/2025 02:48:26 PM: INFO: Clicking the currency button
+03/11/2025 02:49:02 PM: INFO: Clicking the currency button
+03/11/2025 02:49:02 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:49:03 PM: INFO: [+] -> Validating for currency $
+03/11/2025 02:49:03 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 02:49:07 PM: INFO: Clicking the currency button
+03/11/2025 02:49:07 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 02:49:08 PM: INFO: [+] -> Validating for currency €
+03/11/2025 02:49:08 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 02:49:20 PM: INFO: Clicking the currency button
+03/11/2025 02:49:20 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 02:49:21 PM: INFO: [+] -> Validating for currency £
+03/11/2025 02:49:21 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 02:51:18 PM: INFO: Clicking the currency button
+03/11/2025 02:51:18 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:51:18 PM: INFO: [+] -> Validating for currency $
+03/11/2025 02:51:18 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 02:51:23 PM: INFO: Clicking the currency button
+03/11/2025 02:51:23 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 02:51:24 PM: INFO: [+] -> Validating for currency €
+03/11/2025 02:51:24 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 02:51:31 PM: INFO: Clicking the currency button
+03/11/2025 02:51:31 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 02:51:31 PM: INFO: [+] -> Validating for currency £
+03/11/2025 02:51:31 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 02:59:10 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:10 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:59:10 PM: INFO: [+] -> Validating for currency $
+03/11/2025 02:59:10 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 02:59:15 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:15 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 02:59:16 PM: INFO: [+] -> Validating for currency €
+03/11/2025 02:59:16 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 02:59:20 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:20 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 02:59:21 PM: INFO: [+] -> Validating for currency £
+03/11/2025 02:59:21 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 02:59:44 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:44 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 02:59:44 PM: INFO: [+] -> Validating for currency $
+03/11/2025 02:59:44 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 02:59:49 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:49 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 02:59:50 PM: INFO: [+] -> Validating for currency €
+03/11/2025 02:59:50 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 02:59:55 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 02:59:55 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 02:59:55 PM: INFO: [+] -> Validating for currency £
+03/11/2025 02:59:55 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 03:02:00 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:02:00 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 03:02:00 PM: INFO: [+] -> Validating for currency $
+03/11/2025 03:02:00 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 03:02:05 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:02:05 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 03:02:05 PM: INFO: [+] -> Validating for currency €
+03/11/2025 03:02:05 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 03:02:11 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:02:11 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 03:02:11 PM: INFO: [+] -> Validating for currency £
+03/11/2025 03:02:11 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 03:03:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:03:06 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 03:03:07 PM: INFO: [+] -> Validating for currency $
+03/11/2025 03:03:07 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 03:03:11 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:03:11 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 03:03:11 PM: INFO: [+] -> Validating for currency €
+03/11/2025 03:03:11 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 03:03:16 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:03:16 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 03:03:16 PM: INFO: [+] -> Validating for currency £
+03/11/2025 03:03:16 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 03:33:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:33:06 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 03:33:06 PM: INFO: [+] -> Validating for currency $
+03/11/2025 03:33:06 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 03:33:11 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:33:11 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 03:33:11 PM: INFO: [+] -> Validating for currency €
+03/11/2025 03:33:11 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 03:33:15 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 03:33:16 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 03:33:16 PM: INFO: [+] -> Validating for currency £
+03/11/2025 03:33:16 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 04:23:48 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 04:23:48 PM: ERROR: [+] -> TC-010 Failed: Cart is empty when it shouldn't be. Cart info: 0 item(s) - $0.00
+03/11/2025 04:23:53 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 04:23:53 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 04:23:53 PM: ERROR: [+] -> TC-011 Failed: Cart should be empty, but it's not. Cart info: 
+03/11/2025 04:24:35 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 04:24:35 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 04:24:39 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 04:24:39 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 04:24:39 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/11/2025 05:28:16 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 05:28:16 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 05:28:16 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/11/2025 05:28:23 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 05:28:23 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 05:28:30 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 05:28:30 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 05:28:30 PM: INFO: [+] -> Validating for currency $
+03/11/2025 05:28:30 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 05:28:34 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 05:28:35 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 05:28:35 PM: INFO: [+] -> Validating for currency €
+03/11/2025 05:28:35 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 05:28:40 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 05:28:40 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 05:28:40 PM: INFO: [+] -> Validating for currency £
+03/11/2025 05:28:40 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 07:34:18 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 07:34:19 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:34:19 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/11/2025 07:34:23 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:34:23 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 07:34:27 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:34:27 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 07:34:28 PM: INFO: [+] -> Validating for currency $
+03/11/2025 07:34:28 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 07:34:32 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:34:32 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 07:34:32 PM: INFO: [+] -> Validating for currency €
+03/11/2025 07:34:32 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 07:34:36 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:34:37 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 07:34:37 PM: INFO: [+] -> Validating for currency £
+03/11/2025 07:34:37 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 07:46:56 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:46:57 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 07:46:57 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:46:57 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 07:46:57 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:46:57 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 07:46:57 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:46:58 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:46:58 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 07:46:58 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/11/2025 07:46:58 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 07:46:58 PM: INFO: [+] -> Validating for currency €
+03/11/2025 07:46:58 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 07:46:58 PM: INFO: [+] -> Validating for currency £
+03/11/2025 07:46:58 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 07:46:59 PM: INFO: [+] -> Validating for currency $
+03/11/2025 07:46:59 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 07:49:23 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:49:23 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 07:49:24 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:49:24 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 07:49:24 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:49:24 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 07:49:24 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 07:49:25 PM: INFO: [+] -> Validating for currency £
+03/11/2025 07:49:25 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 07:49:25 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 07:49:25 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 07:49:26 PM: INFO: [+] -> Validating for currency €
+03/11/2025 07:49:26 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 07:49:26 PM: INFO: [+] -> Validating for currency $
+03/11/2025 07:49:26 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:02:01 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:02:01 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:02:02 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:02:02 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:02:02 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:02:02 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:02:03 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:02:03 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:02:03 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:02:03 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:02:03 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:02:04 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:02:04 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:02:04 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:02:04 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:02:05 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:02:05 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:03:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:08 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:08 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:03:09 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:09 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:03:09 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:03:09 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:03:09 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:03:10 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/11/2025 08:03:10 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:03:10 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:03:10 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:03:10 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:03:10 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:03:10 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:03:18 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:03:18 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:03:56 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:56 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:56 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:03:56 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:03:56 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:03:56 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:03:56 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:03:56 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:03:57 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:03:57 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:03:57 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:03:57 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:03:57 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:03:58 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:03:58 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:04:07 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:04:07 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:10:37 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:10:37 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:10:37 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:10:37 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:10:38 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:10:38 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:10:38 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:10:39 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:10:39 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:10:39 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:10:39 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:10:40 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:10:40 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:10:40 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:10:40 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:12:22 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:12:22 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:12:22 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:12:23 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:12:23 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:12:23 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:12:23 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:12:24 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:12:24 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:12:24 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:12:24 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:12:24 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:12:24 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:12:25 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:12:25 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:12:25 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:12:25 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:15:05 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:15:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:15:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:15:06 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:15:06 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:15:06 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:15:07 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:15:07 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:15:07 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:15:07 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:15:07 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:15:07 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:15:07 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:15:07 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:15:07 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:15:08 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:15:08 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:16:07 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:16:07 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:16:07 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:16:07 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:16:07 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:16:08 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:16:08 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:16:08 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:16:08 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:16:08 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:16:09 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:16:09 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:16:09 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:16:09 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:16:09 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:16:09 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:16:09 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:17:21 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:17:21 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:17:21 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:17:21 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:17:22 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:17:22 PM: ERROR: [+] -> TC-011 Failed: Cart should be empty, but it's not. Cart info: <selenium.webdriver.remote.webelement.WebElement (session="da54a0e542294590cafceaf8a7994e8d", element="f.2A38510E07C8E2A6F7B2919B23370846.d.5132F44C004021C5FC34AB4E3FBB257A.e.7")>
+03/11/2025 08:17:22 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:17:22 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: <selenium.webdriver.remote.webelement.WebElement (session="c7e0a2a2ef288cc0993c698714b55b41", element="f.1188B71499EC598E8B753215A2E02380.d.E651A2C6E954D9F1AEF21449EFA7E1A0.e.34")>
+03/11/2025 08:17:22 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:17:23 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:17:23 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:17:23 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:17:23 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:17:23 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:17:23 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:17:24 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:17:24 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:19:46 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:19:46 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:19:46 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:19:46 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:19:47 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:19:47 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:19:47 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:19:47 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:19:47 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:19:48 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:19:48 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:19:48 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:19:48 PM: INFO: [+] -> TC-008 Passed
+03/11/2025 08:19:48 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:19:49 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:19:49 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:20:38 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:20:38 PM: INFO: [+] -> Selecting Currency '$'
+03/11/2025 08:20:38 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:20:39 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:20:39 PM: INFO: [+] -> Clicking Add to cart from product
+03/11/2025 08:20:39 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
+03/11/2025 08:20:39 PM: INFO: [+] -> Selecting Currency '€'
+03/11/2025 08:20:40 PM: INFO: [+] -> Validating for currency $
+03/11/2025 08:20:40 PM: INFO: [+] -> TC-009 Passed
+03/11/2025 08:20:40 PM: INFO: [+] -> Validating Add to cart Button
+03/11/2025 08:20:40 PM: INFO: [+] -> Clicking the currency button
+03/11/2025 08:20:40 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
+03/11/2025 08:20:40 PM: INFO: [+] -> Validating for currency €
+03/11/2025 08:20:40 PM: INFO: [+] -> TC-007 Passed
+03/11/2025 08:20:41 PM: INFO: [+] -> Selecting Currency '£'
+03/11/2025 08:20:41 PM: INFO: [+] -> Validating for currency £
+03/11/2025 08:20:41 PM: INFO: [+] -> TC-008 Passed

@@ -1,0 +1,2 @@
+[32mINFO    [0m root:home_page.py:99 [+] -> Validating Add to cart Button
+[31m[1mERROR   [0m root:home_page.py:110 [+] -> TC-011 Failed: Cart should be empty, but it's not. Cart info: <selenium.webdriver.remote.webelement.WebElement (session="da54a0e542294590cafceaf8a7994e8d", element="f.2A38510E07C8E2A6F7B2919B23370846.d.5132F44C004021C5FC34AB4E3FBB257A.e.7")>
