@@ -1,1 +1,0 @@
-[32mINFO    [0m root:home_page.py:99 [+] -> Validating Add to cart Button

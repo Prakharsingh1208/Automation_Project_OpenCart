@@ -10,7 +10,7 @@ empty_cart_message=ConfigHomePage.GetEmptyCartMessage()
 
 
 
-@allure.id(10)
+@allure.label("Categories","TC-010")
 @allure.title("Adding product to cart from home page")
 @allure.feature("Shopping Cart")
 @allure.severity(allure.severity_level.CRITICAL)
@@ -21,7 +21,7 @@ def test_010(setup):
     browser.ClickAddtoCart(location)
     browser.CartValidation(cart_info_location,empty_cart_message,test_case_id)
 
-@allure.id(11)
+@allure.label("test_id","TC-011")
 @allure.title("Verifying cart status when new user open the website")
 @allure.feature("Shopping Cart")
 @allure.severity(allure.severity_level.NORMAL)

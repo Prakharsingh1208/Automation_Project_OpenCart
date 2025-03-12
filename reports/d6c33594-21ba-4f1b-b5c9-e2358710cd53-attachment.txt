@@ -1,0 +1,2 @@
+[32mINFO    [0m root:Wish_list.py:15 [+] -> clicking on the add to wishlist button from homepage product catalog
+[32mINFO    [0m root:Wish_list.py:23 [+] -> TC-012 Passed: wishlist is not empty upon clicking add to wishlist from product catalog

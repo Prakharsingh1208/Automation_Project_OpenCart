@@ -1,4 +1,0 @@
-[32mINFO    [0m root:test_currency_homepage.py:14 [+] -> Clicking the currency button
-[32mINFO    [0m root:home_page.py:72 [+] -> Selecting Currency '£'
-[32mINFO    [0m root:home_page.py:78 [+] -> Validating for currency £
-[32mINFO    [0m root:home_page.py:80 [+] -> TC-008 Passed

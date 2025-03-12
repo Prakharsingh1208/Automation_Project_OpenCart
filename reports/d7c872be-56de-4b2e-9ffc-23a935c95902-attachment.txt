@@ -1,2 +1,0 @@
-[32mINFO    [0m root:home_page.py:99 [+] -> Validating Add to cart Button
-[32mINFO    [0m root:home_page.py:106 [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00

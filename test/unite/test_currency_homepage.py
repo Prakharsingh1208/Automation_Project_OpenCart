@@ -17,7 +17,7 @@ def ClickingCurrencyButton(setup):
 
 @allure.title("Select Dollar as the currency")
 @allure.feature("Multi-Currency Support")
-@allure.id(9)
+@allure.label("test_id","TC-009")
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.description("Test to verify the change in product currency when selecting the currency as Dollar")
 def test_009(ClickingCurrencyButton):
@@ -29,7 +29,7 @@ def test_009(ClickingCurrencyButton):
 
 @allure.title("Select Euro as the currency")
 @allure.feature("Multi-Currency Support")
-@allure.id(7)
+@allure.label("test_id","TC-007")
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.description("Test to verify the change in product currency when selecting the currency as Euro")
 def test_007(ClickingCurrencyButton):
@@ -41,7 +41,7 @@ def test_007(ClickingCurrencyButton):
 
 @allure.title("Select Pound as the currency")
 @allure.feature("Multi-Currency Support")
-@allure.id(8)
+@allure.label("test_id","TC-008")
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.description("Test to verify the change in product currency when selecting the currency as Pound")
 def test_008(ClickingCurrencyButton):

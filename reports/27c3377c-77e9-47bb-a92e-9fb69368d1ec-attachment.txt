@@ -1,2 +1,0 @@
-[32mINFO    [0m root:home_page.py:94 [+] -> Clicking Add to cart from product
-[32mINFO    [0m root:home_page.py:99 [+] -> Validating Add to cart Button

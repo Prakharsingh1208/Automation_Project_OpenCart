@@ -1,3 +1,0 @@
-[32mINFO    [0m root:home_page.py:94 [+] -> Clicking Add to cart from product
-[32mINFO    [0m root:home_page.py:99 [+] -> Validating Add to cart Button
-[32mINFO    [0m root:home_page.py:115 [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 1 item(s) - $123.20
