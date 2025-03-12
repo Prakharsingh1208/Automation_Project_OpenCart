@@ -23,6 +23,7 @@ def setup(browser):
     else:
         raise AssertionError("Please give the valid browser option")
     driver.get("https://awesomeqa.com/ui/index.php?route=common/home")
+    driver.maximize_window()
     yield driver
     driver.quit()
     return driver

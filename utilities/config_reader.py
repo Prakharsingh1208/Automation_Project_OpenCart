@@ -86,3 +86,19 @@ class ConfigHomePage:
     def GetEmptyCartMessage():
         Message = configs.get("Home_page","EmptyCartMessage")
         return Message
+
+class ConfigHomepageWishList:
+    @staticmethod
+    def get_wish_list_info_xpath():
+        location = configs.get("Home_page_wish_list","wish_list_info_xpath")
+        return location
+
+    @staticmethod
+    def get_empty_wish_list_info():
+        message = configs.get("Home_page_wish_list","empty_wish_list_info")
+        return message
+
+    @staticmethod
+    def get_product_wishlist_button_xpath():
+        location = configs.get("Home_page_wish_list","product_wishlist_button_xpath")
+        return location
