@@ -61,3 +61,23 @@
 03/12/2025 08:59:10 PM: INFO: [+] -> TC-009 Passed
 03/12/2025 08:59:10 PM: INFO: [+] -> Validating for currency £
 03/12/2025 08:59:10 PM: INFO: [+] -> TC-008 Passed
+03/13/2025 08:50:26 PM: INFO: [+] -> Clicking the currency button
+03/13/2025 08:50:27 PM: INFO: [+] -> Clicking the currency button
+03/13/2025 08:50:27 PM: INFO: [+] -> Clicking Add to cart from product
+03/13/2025 08:50:27 PM: INFO: [+] -> Clicking the currency button
+03/13/2025 08:50:27 PM: INFO: [+] -> clicking on the add to wishlist button from homepage product catalog
+03/13/2025 08:50:28 PM: INFO: [+] -> Validating Add to cart Button
+03/13/2025 08:50:28 PM: INFO: [+] -> Selecting Currency '$'
+03/13/2025 08:50:28 PM: INFO: [+] -> Selecting Currency '£'
+03/13/2025 08:50:28 PM: INFO: [+] -> TC-010 Passed: Cart is correctly updated. Cart info: 
+03/13/2025 08:50:28 PM: INFO: [+] -> Selecting Currency '€'
+03/13/2025 08:50:28 PM: INFO: [+] -> TC-013 Passed: wishlist is empty when the new user access the homepage
+03/13/2025 08:50:29 PM: INFO: [+] -> Validating for currency $
+03/13/2025 08:50:29 PM: INFO: [+] -> TC-009 Passed
+03/13/2025 08:50:29 PM: INFO: [+] -> Validating for currency £
+03/13/2025 08:50:29 PM: INFO: [+] -> TC-008 Passed
+03/13/2025 08:50:29 PM: INFO: [+] -> TC-012 Passed: wishlist is not empty upon clicking add to wishlist from product catalog
+03/13/2025 08:50:29 PM: INFO: [+] -> Validating for currency €
+03/13/2025 08:50:29 PM: INFO: [+] -> TC-007 Passed
+03/13/2025 08:50:30 PM: INFO: [+] -> Validating Add to cart Button
+03/13/2025 08:50:30 PM: INFO: [+] -> TC-011 Passed: Cart is empty as expected. Cart info: 0 item(s) - $0.00
