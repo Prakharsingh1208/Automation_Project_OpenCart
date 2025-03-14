@@ -23,3 +23,20 @@ class SearchBar_config:
     def get_product_catalog():
         location = config.get("search_bar","product_catalog_location")
         return location
+
+class Cart_config:
+    @staticmethod
+    def get_add_to_cart_home_page_location():
+        location=config.get("cart","addtocart_home_page")
+        return location
+
+    @staticmethod
+    def get_add_to_cart_product_page_location():
+        location = config.get("cart", "addtocart_product_page")
+        return location
+
+    @staticmethod
+    def get_add_to_cart_search_page_location():
+        location = config.get("cart", "addtocart_search_page")
+        return location
+
