@@ -1,0 +1,12 @@
+README.md
+setup.py
+automation_project.egg-info/PKG-INFO
+automation_project.egg-info/SOURCES.txt
+automation_project.egg-info/dependency_links.txt
+automation_project.egg-info/top_level.txt
+base_page/__init__.py
+base_page/unit/Search_bar.py
+base_page/unit/__init__.py
+utilities/__init__.py
+utilities/config_reader.py
+utilities/logs_genrator.py
