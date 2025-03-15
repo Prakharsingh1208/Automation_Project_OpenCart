@@ -40,3 +40,32 @@ class Cart_config:
         location = config.get("cart", "addtocart_search_page")
         return location
 
+    @staticmethod
+    def get_black_cart_button():
+        location = config.get("cart", "black_cart_button")
+        return location
+
+    @staticmethod
+    def get_shopping_cart_button():
+        location = config.get("cart", "shopping_cart_button")
+        return location
+
+    @staticmethod
+    def get_empty_cart_message():
+        message = config.get("cart", "empty_cart_message")
+        return message
+
+    @staticmethod
+    def get_black_cart_info():
+        location = config.get("cart", "black_cart_info")
+        return location
+
+    @staticmethod
+    def get_success_prompt():
+        location = config.get("cart", "success_prompt")
+        return location
+
+    @staticmethod
+    def get_warning_prompt():
+        location = config.get("cart", "warning_prompt")
+        return location
