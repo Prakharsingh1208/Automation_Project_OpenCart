@@ -1,7 +1,7 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read("configurations/config.ini")
+config.read("configurations\\config.ini")
 
 class SearchBar_config:
     @staticmethod

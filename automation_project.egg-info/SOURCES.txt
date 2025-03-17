@@ -7,6 +7,7 @@ automation_project.egg-info/top_level.txt
 base_page/__init__.py
 base_page/unit/Search_bar.py
 base_page/unit/__init__.py
+base_page/unit/cart.py
 utilities/__init__.py
 utilities/config_reader.py
 utilities/logs_genrator.py
