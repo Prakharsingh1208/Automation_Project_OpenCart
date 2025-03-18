@@ -74,3 +74,13 @@ class Cart_config:
     def get_product_page_location():
         location = config.get("cart","product_page_location")
         return location
+
+    @staticmethod
+    def get_addtocart_homepage_2():
+        location = config.get("cart","addtocart_home_page_2")
+        return location
+
+    @staticmethod
+    def get_black_cart_button_item_list():
+        location = config.get("cart","black_cart_button_item_list")
+        return location
