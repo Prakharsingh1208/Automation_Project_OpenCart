@@ -1,5 +1,6 @@
 import pytest
 from base_page.unit.cart import Cart
+from base_page.unit.Search_bar import Search_Bar_Test
 from utilities.config_reader import Cart_config
 from utilities.config_reader import SearchBar_config
 
@@ -30,4 +31,12 @@ def test_add_product_home_page(setup_cart):
     browser.clicking_black_cart_button(black_cart_button)
     browser.verify_the_empty_cart(black_cart_info,empty_cart_message)
 
+def test_add_product_search_page(setup_cart):
+    browser=Search_Bar_Test(setup_cart)
+    browser.entering_the_search_parameter(search_bar_location,'iphone','')
+    browser.click_on_search_button(search_button_location)
+    browser=Cart(setup_cart)
+    browser.adding_to_cart_search_page(addtocart_search_page)
+    browser.clicking_black_cart_button(black_cart_button)
+    browser.verify_the_empty_cart(black_cart_info,empty_cart_message)
 
