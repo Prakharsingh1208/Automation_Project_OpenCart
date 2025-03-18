@@ -24,6 +24,9 @@ class Cart:
     def clicking_black_cart_button(self,add_to_cart_location):
         self.driver.find_element(By.XPATH,add_to_cart_location).click()
 
+    def clicking_product_page(self,product_page_location):
+        self.driver.find_element(By.XPATH,product_page_location).click()
+
     def verify_the_empty_cart(self,black_cart_info,empty_cart_message):
         info = self.driver.find_element(By.XPATH,black_cart_info).text.split()
         if info == empty_cart_message:

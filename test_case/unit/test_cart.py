@@ -7,6 +7,7 @@ from utilities.config_reader import SearchBar_config
 addtocart_home_page = Cart_config.get_add_to_cart_home_page_location()
 addtocart_search_page = Cart_config.get_add_to_cart_search_page_location()
 addtocart_product_page = Cart_config.get_add_to_cart_product_page_location()
+product_page_location=Cart_config.get_product_page_location()
 black_cart_button = Cart_config.get_black_cart_button()
 shopping_cart_button = Cart_config.get_shopping_cart_button()
 empty_cart_message = Cart_config.get_empty_cart_message()
@@ -40,3 +41,9 @@ def test_add_product_search_page(setup_cart):
     browser.clicking_black_cart_button(black_cart_button)
     browser.verify_the_empty_cart(black_cart_info,empty_cart_message)
 
+def test_add_product_product_discription(setup_cart):
+    browser=Cart(setup_cart)
+    browser.clicking_product_page(product_page_location)
+    browser.adding_to_cart_product_page(addtocart_product_page)
+    browser.clicking_black_cart_button(black_cart_button)
+    browser.verify_the_empty_cart(black_cart_info,empty_cart_message)

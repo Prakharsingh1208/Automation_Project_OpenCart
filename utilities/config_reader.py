@@ -69,3 +69,8 @@ class Cart_config:
     def get_warning_prompt():
         location = config.get("cart", "warning_prompt")
         return location
+
+    @staticmethod
+    def get_product_page_location():
+        location = config.get("cart","product_page_location")
+        return location
