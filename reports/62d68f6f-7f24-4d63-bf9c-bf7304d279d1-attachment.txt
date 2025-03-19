@@ -1,1 +1,0 @@
-[32mINFO    [0m root:Wish_list.py:33 [+] -> TC-013 Passed: wishlist is empty when the new user access the homepage

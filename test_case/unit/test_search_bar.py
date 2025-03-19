@@ -1,3 +1,4 @@
+import allure
 import pytest
 from base_page.unit.Search_bar import Search_Bar_Test
 from utilities.config_reader import SearchBar_config
@@ -21,6 +22,8 @@ def search_setup(setup):
     ("' OR 1=1 --","TC_SB_04_01"),
     ("","TC_SB_05_01")
 ])
+@allure.title("Testing the search bar with")
+@allure.severity(allure.severity_level.CRITICAL)
 def test_sending_search_parameter(search_setup,search_query,test_case_id):
     browser=Search_Bar_Test(search_setup)
     browser.entering_the_search_parameter(search_bar_location,search_query,test_case_id)

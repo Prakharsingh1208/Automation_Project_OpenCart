@@ -1,0 +1,5 @@
+[32mINFO    [0m root:cart.py:23 adding product to cart from homepage
+[32mINFO    [0m root:cart.py:23 adding product to cart from homepage
+[32mINFO    [0m root:cart.py:39 Clicking on 'add to cart' button
+[32mINFO    [0m root:cart.py:79 Verifying if we can add multiple items in cart
+[32mINFO    [0m root:cart.py:83 Test case TC_ATC_05_01 Passed !
