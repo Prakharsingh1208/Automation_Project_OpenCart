@@ -84,3 +84,8 @@ class Cart_config:
     def get_black_cart_button_item_list():
         location = config.get("cart","black_cart_button_item_list")
         return location
+
+    @staticmethod
+    def get_delete_item_from_cart_location():
+        location = config.get("cart","delete_item_from_cart_location")
+        return location

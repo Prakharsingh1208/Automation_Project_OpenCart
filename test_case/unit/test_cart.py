@@ -1,6 +1,9 @@
+import time
+
 import pytest
 import allure
 from allure_commons.types import Severity
+from selenium.webdriver.support.wait import WebDriverWait
 
 from base_page.unit.cart import Cart
 from base_page.unit.Search_bar import Search_Bar_Test
@@ -19,6 +22,7 @@ black_cart_info = Cart_config.get_black_cart_info()
 success_prompt = Cart_config.get_success_prompt()
 warning_prompt = Cart_config.get_warning_prompt()
 black_cart_button_item_list = Cart_config.get_black_cart_button_item_list()
+delete_item_from_cart_location=Cart_config.get_delete_item_from_cart_location()
 
 search_bar_location = SearchBar_config.get_search_bar_location()
 search_button_location = SearchBar_config.get_search_button_location()
@@ -66,9 +70,9 @@ def test_add_product_from_product_discription(setup_cart):
         browser.clicking_black_cart_button(black_cart_button)
         browser.verify_the_empty_cart(black_cart_info,empty_cart_message,success_prompt,test_case_id)
 
-@pytest.mark.xfail
-@allure.title("TC_ATC_03_01: Adding product to cart from product description")
-@allure.description("Testing by adding the product to cart from product page")
+
+@allure.title("TC_ATC_03_01: Adding Multiple product to cart")
+@allure.description("Testing by adding the multiple product to cart")
 @allure.severity(allure.severity_level.CRITICAL)
 def test_adding_multiple_product_to_cart(setup_cart):
         test_case_id='TC_ATC_05_01'
@@ -79,3 +83,15 @@ def test_adding_multiple_product_to_cart(setup_cart):
         browser.clicking_black_cart_button(black_cart_button)
         browser.verify_multiple_item_in_cart(black_cart_button_item_list,test_case_id)
 
+
+@allure.title("TC_ATC_05_01: Removing the product from 'Shopping Cart'")
+@allure.description("Testing by item from cart")
+@allure.severity(allure.severity_level.CRITICAL)
+def test_remove_item_from_black_button(setup_cart):
+        test_case_id='TC_ATC_05_01'
+        browser=Cart(setup_cart)
+        browser.adding_to_cart_homepage(addtocart_home_page)
+        browser.clicking_black_cart_button(black_cart_button)
+        browser.click_deleted_addto_cart(delete_item_from_cart_location)
+        browser.clicking_black_cart_button(black_cart_button,'-')
+        browser.verify_if_the_cart_is_empty(black_cart_info,empty_cart_message,test_case_id)
