@@ -1,0 +1,4 @@
+INFO     root:cart.py:23 adding product to cart from homepage
+INFO     root:cart.py:39 Clicking on 'add to cart' button
+INFO     root:cart.py:39 Clicking on 'add to cart' button
+INFO     root:cart.py:93 TC_ATC_05_01 Passed !

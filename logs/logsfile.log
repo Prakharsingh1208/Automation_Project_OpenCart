@@ -301,3 +301,25 @@
 03/19/2025 05:58:54 PM: INFO: TC_ATC_02_01 Passed !
 03/19/2025 05:58:54 PM: INFO: verifying the cart and visibility of the success prompt
 03/19/2025 05:58:54 PM: INFO: TC_ATC_03_01 Passed !
+03/20/2025 11:40:41 AM: INFO: adding product to cart from homepage
+03/20/2025 11:40:41 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:42 AM: INFO: adding product to cart from homepage
+03/20/2025 11:40:42 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:43 AM: INFO: adding product to cart from homepage
+03/20/2025 11:40:43 AM: INFO: adding product to cart from homepage
+03/20/2025 11:40:43 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:43 AM: INFO: adding product to cart from search page
+03/20/2025 11:40:43 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:44 AM: INFO: verifying the cart and visibility of the success prompt
+03/20/2025 11:40:44 AM: INFO: TC_ATC_01_01 Passed !
+03/20/2025 11:40:44 AM: INFO: going to product page
+03/20/2025 11:40:45 AM: INFO: Verifying if we can add multiple items in cart
+03/20/2025 11:40:45 AM: INFO: Test case TC_ATC_05_01 Passed !
+03/20/2025 11:40:45 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:45 AM: INFO: TC_ATC_05_01 Passed !
+03/20/2025 11:40:45 AM: INFO: adding product to cart from product description
+03/20/2025 11:40:45 AM: INFO: Clicking on 'add to cart' button
+03/20/2025 11:40:46 AM: INFO: verifying the cart and visibility of the success prompt
+03/20/2025 11:40:46 AM: INFO: TC_ATC_02_01 Passed !
+03/20/2025 11:40:49 AM: INFO: verifying the cart and visibility of the success prompt
+03/20/2025 11:40:49 AM: INFO: TC_ATC_03_01 Passed !
