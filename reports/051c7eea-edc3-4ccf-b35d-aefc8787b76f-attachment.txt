@@ -1,0 +1,4 @@
+[32mINFO    [0m root:cart.py:33 adding product to cart from search page
+[32mINFO    [0m root:cart.py:39 Clicking on 'add to cart' button
+[32mINFO    [0m root:cart.py:69 verifying the cart and visibility of the success prompt
+[32mINFO    [0m root:cart.py:74 TC_ATC_02_01 Passed !

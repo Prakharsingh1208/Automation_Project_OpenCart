@@ -1,0 +1,4 @@
+[32mINFO    [0m root:cart.py:23 adding product to cart from homepage
+[32mINFO    [0m root:cart.py:39 Clicking on 'add to cart' button
+[32mINFO    [0m root:cart.py:39 Clicking on 'add to cart' button
+[32mINFO    [0m root:cart.py:93 TC_ATC_05_01 Passed !
