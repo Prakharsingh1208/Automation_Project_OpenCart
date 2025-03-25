@@ -1,0 +1,5 @@
+[32mINFO    [0m root:cart.py:56 going to product page
+[32mINFO    [0m root:cart.py:28 adding product to cart from product description
+[32mINFO    [0m root:cart.py:39 Clicking on 'add to cart' button
+[32mINFO    [0m root:cart.py:69 verifying the cart and visibility of the success prompt
+[32mINFO    [0m root:cart.py:74 TC_ATC_03_01 Passed !
