@@ -367,3 +367,25 @@
 03/25/2025 11:55:04 PM: INFO: Clicking on 'add to cart' button
 03/25/2025 11:55:07 PM: INFO: Clicking on 'add to cart' button
 03/25/2025 11:55:07 PM: INFO: TC_ATC_05_01 Passed !
+03/26/2025 04:29:49 PM: INFO: adding product to cart from homepage
+03/26/2025 04:29:49 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:29:51 PM: INFO: verifying the cart and visibility of the success prompt
+03/26/2025 04:29:51 PM: INFO: TC_ATC_01_01 Passed !
+03/26/2025 04:29:54 PM: INFO: adding product to cart from search page
+03/26/2025 04:29:54 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:29:56 PM: INFO: verifying the cart and visibility of the success prompt
+03/26/2025 04:29:56 PM: INFO: TC_ATC_02_01 Passed !
+03/26/2025 04:29:58 PM: INFO: going to product page
+03/26/2025 04:29:58 PM: INFO: adding product to cart from product description
+03/26/2025 04:29:58 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:30:00 PM: INFO: verifying the cart and visibility of the success prompt
+03/26/2025 04:30:00 PM: INFO: TC_ATC_03_01 Passed !
+03/26/2025 04:30:02 PM: INFO: adding product to cart from homepage
+03/26/2025 04:30:02 PM: INFO: adding product to cart from homepage
+03/26/2025 04:30:02 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:30:04 PM: INFO: Verifying if we can add multiple items in cart
+03/26/2025 04:30:04 PM: INFO: Test case TC_ATC_05_01 Passed !
+03/26/2025 04:30:05 PM: INFO: adding product to cart from homepage
+03/26/2025 04:30:05 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:30:08 PM: INFO: Clicking on 'add to cart' button
+03/26/2025 04:30:08 PM: INFO: TC_ATC_05_01 Passed !
